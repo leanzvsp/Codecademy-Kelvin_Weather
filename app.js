@@ -1,8 +1,12 @@
   //Kelvin for forecast today
 const kelvin = 293;
 
+console.log(`The temperature is ${kelvin} degrees Kelvin`);
+
   //Convert Kelvin in Celsius
 let celsius = kelvin - 273;
+
+console.log(`The temperature is ${celsius} degrees Celsius`);
 
 //Celsius to Fahrenheit
 let fahrenheit = celsius * (9/5) + 32;
